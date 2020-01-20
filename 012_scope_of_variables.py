@@ -1,5 +1,5 @@
-a = 10  # global variables, available in module scope
-b = 20
+a = 100  # global variables, available in module scope
+b = 200
 
 
 def test_function_for_scope_demonstration():
