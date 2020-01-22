@@ -55,6 +55,7 @@ for x in adj:
 
 print("........enumeration..........")
 
+
 enum_list = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 for index, names in enumerate(enum_list):
     print(index, names)
