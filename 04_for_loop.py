@@ -1,4 +1,3 @@
-# well defined how many times want to loop
 for i in range(5):
     print("Gabe")
 
