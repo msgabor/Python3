@@ -1,16 +1,17 @@
 reading_file = open("read.txt", "r", encoding="UTF-8")
 # print(reading_file.read())            # read all docs
 # print(reading_file.readline())        # read only line by line
-
-for i in reading_file:
-    print(i.strip())
-
+# with for loop
+for lines in reading_file:
+    print(lines.strip())
+# with while loop
 line1st = reading_file.readline()
 while line1st:
     print(line1st.strip())
     line1st = reading_file.readline()
 
 reading_file.close()
+
 
 # another option - context manager, closing automate method the file
 with open("read.txt", "r", encoding="UTF-8") as file:

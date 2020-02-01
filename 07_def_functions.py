@@ -1,5 +1,5 @@
 def my_first_functions():
-    print("Have been define 1st function..")
+    print("Have been defined 1st function..")
 
 
 my_first_functions()  # called previously defined function
@@ -31,7 +31,7 @@ my_function3("Emil", "Tobias", "Linus")
 
 
 def my_function4(child3, child2, child1):
-    print("The youngest child is " + child3)
+    print("The youngest child is " + child2)
 
 
 my_function4(child1="Emil", child2="Tobias", child3="Linus")
