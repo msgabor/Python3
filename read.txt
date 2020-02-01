@@ -9,3 +9,5 @@ There are four different methods (modes) for opening a file:
 "x" - Create - Creates the specified file, returns an error if the file exists
 "t" - Text - Default value. Text mode
 "b" - Binary - Binary mode (e.g. images)
+
+Ezeket az elemeket másoltam egyik file-ból a másikba.

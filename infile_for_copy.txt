@@ -1,0 +1,12 @@
+FELADAT ÖTLETEK:
+txt/csv file beolvasása, majd listába helyezése
+listából adatok kinyerése, majd file-ba történő kiirása
+
+ablakos alkalmazás, amelybe  a skilljeimet sorolom fel
+képfile beolvasása
+egymásból nyiló ablakok
+ablakosban adatbázisba ir ki - vesz el
+what is OOO
+database connection
+Multithreading/szálkezelés demo
+generators and lambda
