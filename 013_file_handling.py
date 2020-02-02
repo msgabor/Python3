@@ -82,3 +82,12 @@ else:
 
 os.rmdir("myfolder")        # delete folder
 '''
+
+# reading txt file and converting into list
+
+with open("cars.txt", "r") as file:
+    for read_cars in file:
+        print(read_cars.strip())
+
+        list_cars = [read_cars]  # moved into list from txt
+        print("Moved into list:", list_cars)
