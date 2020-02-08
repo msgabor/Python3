@@ -1,5 +1,5 @@
 class PersonClass:
-    def __init__(self, name, age, gender, citizenship, religion="hindi"):
+    def __init__(self, name, age, gender, citizenship, religion="Hindi"):       # ha van default érték, akkor azt lent nem kell megadni, de átírható
         self.name = name
         self.age = age
         self.gender = gender
@@ -8,15 +8,19 @@ class PersonClass:
         self.say_hello()
 
     def say_hello(self):
-        print("Welcome, " + self.name)
+        print("Welcome, " + self.name + "!","You are:", self.age, "year old,", self.gender, ",", self.citizenship, ",", self.religion)
 
 
-Gabe = PersonClass("Gabe", 35, "men", "Hungarian", "Christian")
-Anne = PersonClass("Annie", 34, "women", "Hungarian")
+Gabe = PersonClass("Gabe", 35, "Men", "Hungarian", "Christian")
+Anne = PersonClass("Annie", 34, "Women", "Hungarian")
+
+print("*********************************************************************")
 
 print(Gabe.name)
 print(Gabe.age)
-print(Anne.name)
+print(Gabe.gender)
+print(Gabe.citizenship)
+print(Gabe.religion)
 
 print("............................................")
 
