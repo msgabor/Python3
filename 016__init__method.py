@@ -25,20 +25,20 @@ print(Gabe.religion)
 print("............................................")
 
 
-class Employee(PersonClass):  # inheritance
+class Employee(PersonClass):  # inheritance, from 1st class (öröklődés)
 
     def __init__(self, name, age, gender, citizenship, experience, assessment, study):
-        super().__init__(name, age, gender, citizenship)  # need to call super class __init__ function
+        super().__init__(name, age, gender, citizenship)                # need to call super class __init__ function
         self.experience = experience
         self.assessment = assessment
         self.study = study
 
-    # experience = 4
+    # experience = 4                             # ezek a gyerek osztály extra tagváltozói, csak az Employee-re vonatkoznak
     # assessment = 9
     # study = "computer scientist"
 
 
-# instance
-Leslie = Employee("Lacika", 35, "men", "Hungarian", 8, 10, "scientiest")
+# object instance = objektum példány
+Leslie = Employee("Lacika", 35, "men", "Hungarian", 8, 10, "scientiest")    # itt örökölte a Leslie Employee a PersonClass összes tulajdonságát
 print(Leslie.name)
 print(Leslie.study)
