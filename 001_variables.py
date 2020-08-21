@@ -49,6 +49,7 @@ _my_var = "John"
 myVar = "John"
 MYVAR = "John"
 myvar2 = "John"
+
 '''
 #Illegal variable names:
 2myvar = "John"
