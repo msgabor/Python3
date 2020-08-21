@@ -40,3 +40,18 @@ print(var[0:5])     # giving back the first 5 char of string
 print(var.lower())
 print(var.upper())
 print(var.count("b"))
+
+
+#Legal variable names:
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+'''
+#Illegal variable names:
+2myvar = "John"
+my-var = "John"
+my var = "John"
+'''
