@@ -1,8 +1,8 @@
 
 # LIST[] - is a collection which is ordered and changeable. Allows duplicate members. - mutable/able to modification
-# Tuple - is a collection which is ordered and unchangeable. Allows duplicate members.
+# TUPLE() - is a collection which is ordered and unchangeable. Allows duplicate members.
 # Set - is a collection which is unordered and unindexed. No duplicate members.
-# Dictionary - is a collection which is unordered, changeable and indexed. No duplicate members
+# Dictionary{} - is a collection which is unordered, changeable and indexed. No duplicate members
 
 #############################################################################
 list1 = []
@@ -148,7 +148,6 @@ language.extend(language1)
 print("1st list:", language)
 print("2ns list:", language1)
 print("Final extended list:", language)
-
 
 # JOIN/MERGE
 list7 = ["a", "b", "c"]
