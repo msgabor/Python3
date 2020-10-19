@@ -6,7 +6,7 @@ if age < 18:
         print("Little party, never killed nobody!")
     else:
         print("No party!")
-elif age >= 18 and age < 30:
+elif age >= 18 and age < 30:            #more conditions
     print("Go to party!")
 elif age > 30 and age < 65:
     print("Go to family.")
