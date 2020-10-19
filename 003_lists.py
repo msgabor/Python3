@@ -3,10 +3,7 @@
 # TUPLE() - is a collection which is ordered and unchangeable. Allows duplicate members.
 # Set - is a collection which is unordered and unindexed. No duplicate members.
 # Dictionary{} - is a collection which is unordered, changeable and indexed. No duplicate members
-
 #############################################################################
-
-
 list1 = []
 list1.append(100)   # append - add item
 list1.append(200)
