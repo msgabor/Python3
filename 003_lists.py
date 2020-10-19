@@ -5,6 +5,8 @@
 # Dictionary{} - is a collection which is unordered, changeable and indexed. No duplicate members
 
 #############################################################################
+
+
 list1 = []
 list1.append(100)   # append - add item
 list1.append(200)
